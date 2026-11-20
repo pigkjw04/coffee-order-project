@@ -29,8 +29,7 @@ public class Customer {
 
         int price = barista.getCoffeePrice();
 
-        System.out.println("[바리스타] 커피 가격은 "
-                + price + "원 입니다.");
+        System.out.println("[바리스타] 커피 가격은 " + price + "원 입니다.");
 
         int paymentCheck = pay(price);
 
@@ -47,8 +46,7 @@ public class Customer {
             money = money + price;
 
             System.out.println("[손님] 환불받았습니다.");
-            System.out.println("[손님] 현재 잔액은 "
-                    + money + "원 입니다.");
+            System.out.println("[손님] 현재 잔액은 " + money + "원 입니다.");
             return;
         }
 
@@ -60,7 +58,6 @@ public class Customer {
         hasCoffee = true;
 
         System.out.println("[손님] " + coffee + "를 받았습니다.");
-        System.out.println("[손님] 현재 잔액은 "
-                + money + "원 입니다.");
+        System.out.println("[손님] 현재 잔액은 " + money + "원 입니다.");
     }
 }
